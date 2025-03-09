@@ -9,9 +9,9 @@
     </head>
     <body>
         <header>
-            <h1>Blog</h1>
+            <h1 id = "Top">Blog</h1>
         </header>
-        <nav class="Menu">
+        <nav class="Menu"> <!-- normal navigation -->
             <ul>
                 <li><a href = "../index.html">Home</a></li>
                 <li><a href="BlogHome.html">Blog</a> </li>
@@ -20,12 +20,37 @@
                 <li><a href = "../Contact/Contact.html">Contact</a></li>
             </ul>
         </nav>
+        <p>Jump to</p>
+        <nav class="BlogMenu">   <!-- Blog menu select -->
+            <ul>
+                <li><a href="#Blog1">Blog </a></li>
+                <li><a href="#Blog2">Blog </a></li>
+                <li><a href="#Blog3">Blog </a></li>
+            </ul>
+        </nav>
         <article class ="card" id = "Blog1"><!-- article to contain details about blog -->
             <p>Example 1</p>             <!-- title -->
             <p>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </p><!-- Author date and time -->
             <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
             <a href="Blog.html">Read More</a><!-- anchor to blog -->
         </article>
+
+        <article class ="card" id = "Blog2"><!-- article to contain details about blog -->
+            <p>Example 2</p>             <!-- title -->
+            <p>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </p><!-- Author date and time -->
+            <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
+            <a href="Blog2.html">Read More</a><!-- anchor to blog -->
+        </article>
+
+        <article class ="card" id = "Blog3"><!-- article to contain details about blog -->
+            <p>Example 3</p>             <!-- title -->
+            <p>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </p><!-- Author date and time -->
+            <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
+            <a href="Blog3.html">Read More</a><!-- anchor to blog -->
+        </article>
+
+        <a href="#Top">Back to Top</a> <!-- Back to top of screen-->
+        
     </body>
     
 </html>
