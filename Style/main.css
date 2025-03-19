@@ -2,4 +2,52 @@ h1{
     
     color: #f6d4d2;
     font-family: "Sulphur Point",sans-serif;
+    font-size: 48px;
 }  
+h2{
+    color: #edd1fa;
+    font-family: "Sulphur Point";
+    font-size: 44px;
+}
+h3{
+    color: #edd1fa;
+    font-family: "Sulphur Point",sans-serif;
+    font-size: 36px;
+}
+h4{
+    color:#edd1fa;
+    font-family: "Sulphur Point";
+    font-size: 16px;
+}
+
+a{
+    color: #edd1fa;
+    font-size: 16px;
+    font-family: "Sulphur Point", sans-serif;
+    text-decoration: none;
+}
+
+.p-author{
+    color: #edd1fa;
+    font-size: 16px;
+    font-family: "Sulphur Point", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #4120a9;
+}
+
+p{
+    color: #edd1fa;
+    font-family: "Sulphur Point", sans-serif;
+    font-size: 16px;
+}
+
+.Menu{
+    list-style: none;
+}
+
+.JumpMenu{
+    list-style: none;
+}
