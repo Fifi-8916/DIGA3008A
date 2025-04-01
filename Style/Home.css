@@ -1,0 +1,115 @@
+#Fact{
+    color: #edd1fa;
+    font-family: "Sulphur Point", sans-serif;
+    font-size: 16px;
+    border: 1px solid yellow;
+    text-align: center;
+    display: inline-block;
+}
+body{
+    background-attachment: fixed;
+}
+
+#Top{
+    color: #edd1fa;
+    font-family: "Sulphur Point", sans-serif;
+    font-size: 48px;
+}
+
+figcaption{
+    color: #edd1fa;
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+}
+.Caption-description{
+    color: #7454de;
+    font-weight: 400;
+    font-family: "Sulphur Point", sans-serif;
+    font-size: 16px;
+}
+#Option1{
+    border: 1px solid #9fa8eb;
+    border-radius: 5px;
+    background-color: #9fa8eb;
+    align-content: center;
+    text-align: center;
+    width: 214px;
+    height: 324px;
+    display: inline-block;
+    position: relative;
+    left: 76.8px;
+    top: 139.6px;
+}
+
+#Option2{
+    border: 1px solid #9fa8eb;
+    border-radius: 5px;
+    background-color: #9fa8eb;
+    align-content: center;
+    text-align: center;
+    width: 214px;
+    height: 324px;
+    display: inline-block;
+    position: relative;
+    left: 315.5px;
+    top: 76.8px;
+}
+
+#Option3{
+    border: 1px solid #9fa8eb;
+    border-radius: 5px;
+    background-color: #9fa8eb;
+    align-content: center;
+    text-align: center;
+    width: 214px;
+    height: 324px;
+    display: inline-block;
+    position: relative;
+    left: 554px;
+    top: 139.6px;
+}
+
+#Option4{
+    border: 1px solid #9fa8eb;
+    border-radius: 5px;
+    background-color: #9fa8eb;
+    align-content: center;
+    text-align: center;
+    width: 214px;
+    height: 324px;
+    display: inline-block;
+    position: relative;
+    left: 792.9px;
+    top:76.8px;
+}
+
+#Option5{
+    border: 1px solid #9fa8eb;
+    border-radius: 5px;
+    background-color: #9fa8eb;
+    align-content: center;
+    text-align: center;
+    width: 214px;
+    height: 324px;
+    display: inline-block;
+    position: relative;
+    left: 1031.8px;
+    top: 139.6px;
+}
+img{
+    width: 140px;
+    height: 140px;
+}
+
+.Options{
+    
+}
+
+
+
+
+
+
+

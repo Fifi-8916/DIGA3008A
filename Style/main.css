@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     
     color: #f6d4d2;
@@ -21,7 +25,7 @@ h4{
 }
 
 a{
-    color: #edd1fa;
+    color: #7454de;
     font-size: 16px;
     font-family: "Sulphur Point", sans-serif;
     text-decoration: none;
@@ -36,6 +40,7 @@ a{
 
 body{
     background: linear-gradient(#271467,#4120a9,#7454de);
+    background-attachment: scroll;
 }
 
 p{
@@ -63,3 +68,4 @@ p{
 .JumpMenu{
     list-style: none;
 }
+
