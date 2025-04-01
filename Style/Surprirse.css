@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(#7454de,#ac98eb);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+.homeButton{
+    text-align: center;
+}
+.homeButton a{
+    border: 1px solid #4120a9;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #4120a9;
+    text-align: center;
+}
