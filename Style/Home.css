@@ -1,7 +1,10 @@
+h1{
+    text-align: center;
+}
 #Fact{
     color: #fff;
     font-family: "Sulphur Point", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     display: inline-block;
 }
@@ -12,7 +15,7 @@ body{
 #Top{
     color: #fff;
     font-family: "Sulphur Point", sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 figcaption{
@@ -20,13 +23,13 @@ figcaption{
     font-family: "Sulphur Point", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 28px;
+    font-size: 2rem;
 }
 .Caption-description{
     color: #fff;
     font-weight: 400;
     font-family: "Sulphur Point", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 #Options{
@@ -44,74 +47,76 @@ figcaption{
     background-color: #7E52A0;
     align-content: center;
     text-align: center;
-    width: 158.51px;
-    height: 240px;
+    width: 9.906rem;
+    height: 15rem;
     display: inline-block;
     position: relative;
 }
 
 #Option2{
-    border: 1px solid #9fa8eb;
+    border: 1px solid ,#7E52A0;
     border-radius: 5px;
-    background-color: #9fa8eb;
+    background-color: #7E52A0;
     align-content: center;
     text-align: center;
-    width: 158.51px;
-    height: 240px;
+    width: 9.906rem;
+    height: 15rem;
     display: inline-block;
     position: relative;
 }
 
 #Option3{
-    border: 1px solid #9fa8eb;
-    border-radius: 5px;
-    background-color: #9fa8eb;
+    border: 1px solid ,#7E52A0;
+    border-radius: 0.3125rem;
+    background-color: #7E52A0;
     align-content: center;
     text-align: center;
-    width: 158.51px;
-    height: 240px;
+    width: 9.906rem;
+    height: 15rem;
     display: inline-block;
     position: relative;
 }
 
 #Option4{
-    border: 1px solid #9fa8eb;
+    border: 1px solid ,#7E52A0;
     border-radius: 5px;
-    background-color: #9fa8eb;
+    background-color: #7E52A0;
     align-content: center;
     text-align: center;
-    width: 158.51px;
-    height: 240px;
+    width: 9.906rem;
+    height: 15rem;
     display: inline-block;
     position: relative;
 }
 
 #Option5{
-    border: 1px solid #9fa8eb;
+    border: 1px solid ,#7E52A0;
     border-radius: 5px;
-    background-color: #9fa8eb;
+    background-color: #7E52A0;
     align-content: center;
     text-align: center;
-    width: 158.51px;
-    height: 240px;
+    width: 9.906rem;
+    height: 15rem;
     display: inline-block;
     position: relative;
 }
 img{
-    width: 70px;
-    height: 70px;
-}
-
-.back-to-top{
-    position: sticky;
-    scroll-behavior: smooth;
-    position: relative;
-    left: 90%;
-    bottom: 0%;
+    width: 4.375rem;
+    height: 4.375rem;
 }
 
 .down{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width:3.125rem;
+    height: 3.125rem;
+    position: relative;
+    left:45rem;
+}
+.down img{
+    width:2.5rem;
+    height: 2.5rem;
 }
 
 .fact-block{
@@ -119,9 +124,7 @@ img{
     position: relative;
 }
 
-h1{
-    text-align: center;
-}
+
 
 
 

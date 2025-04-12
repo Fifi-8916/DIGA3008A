@@ -5,16 +5,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&family=Princess+Sofia&family=Sulphur+Point:wght@300;400;700&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../Style/main.css"><!--make sure href has correct pathing--><!--main css for global attributes-->
+        <link rel="stylesheet" href="../Style/BlogHome.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, intial-scale=1.0">
         <meta name="author" content="Refilwe">
-        <meta name = "description" content = "Contact page, email and socials provided">
+        <meta name = "description" content = "Explaination of development process">
         <title>Dev Log</title>
     </head>
     <body>
-        <header>
-            <h1 id = "Top">Dev Log</h1>
-        </header>
         <nav>
             <ul class="Menu">
                 <li><a href = "../index.html">Home</a></li>
@@ -25,35 +23,47 @@
                 <li><a href = "../Contact/Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <p>Jump to</p>
-        <nav>   <!-- Blog menu select -->
-            <ul class="JumpMenu">
-                <li><a href="#Design1">Design 1</a></li>
-                <li><a href="#Design2">Design 2</a></li>
-                <li><a href="#Design3">Design 3</a></li>
-                <li><a href="#Design4">Design 4</a></li>
-            </ul>
-        </nav>
-        <article class ="card" id = "Design1"><!-- article to contain details about blog/better to use figures, less information-->
-            <p>Design Goal</p>             <!-- title -->
-            <p>Why did I make this you wonder...I don't know, read the blog.</p><!-- Summary -->
-            <a href="DesignGoal.html">Read More</a><!-- anchor to blog -->
-        </article>
-        <article class ="card" id = "Design2"><!-- article to contain details about blog/better to use figures, less information-->
-            <p>Inspiration</p>             <!-- title -->
-            <p>What made me decide on a starry night?</p><!-- Summary -->
-            <a href="Inspiration.html">Read More</a><!-- anchor to blog -->
-        </article>
-        <article class ="card" id = "Design3"><!-- article to contain details about blog/better to use figures, less information-->
-            <p>Wireframing</p>             <!-- title -->
-            <p>My many attempts are designing a website; you can decide if I suceeded</p><!-- Summary -->
-            <a href="Wireframing.html">Read More</a><!-- anchor to blog -->
-        </article>
-        <article class ="card" id = "Design4"><!-- article to contain details about blog/better to use figures, less information-->
-            <p>Design Board</p>             <!-- title -->
-            <p>Hopefully my scrapbooking skills came in clutch!?</p><!-- Summary -->
-            <a href="DesignBoard.html">Read More</a><!-- anchor to blog -->
-        </article>
-        <a href="#Top">Back to Top</a> <!-- Back to top of screen-->
+        <div class="layout">
+            <div class="page-menu">
+                <header>
+                    <h3 id = "Top">Dev Log</h3>
+                </header>
+                <p>Jump to</p>
+                <nav>   <!-- Blog menu select -->
+                    <ul class="JumpMenu">
+                        <li><a href="#Design1">Design 1</a></li>
+                        <li><a href="#Design2">Design 2</a></li>
+                        <li><a href="#Design3">Design 3</a></li>
+                        <li><a href="#Design4">Design 4</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="page-articles">
+                <article class ="h-card" id = "Design1"><!-- article to contain details about blog/better to use figures, less information-->
+                    <h3>Design Goal</h3>             <!-- title -->
+                    <p>Why did I make this you wonder...I don't know, read the blog.</p><!-- Summary -->
+                    <a href="DesignGoal.html">Read More</a><!-- anchor to blog -->
+                </article>
+                <article class ="h-card" id = "Design2"><!-- article to contain details about blog/better to use figures, less information-->
+                    <h3>Inspiration</h3>             <!-- title -->
+                    <p>What made me decide on a starry night?</p><!-- Summary -->
+                    <a href="Inspiration.html">Read More</a><!-- anchor to blog -->
+                </article>
+                <article class ="h-card" id = "Design3"><!-- article to contain details about blog/better to use figures, less information-->
+                    <h3>Wireframing</h3>             <!-- title -->
+                    <p>My many attempts are designing a website; you can decide if I suceeded</p><!-- Summary -->
+                    <a href="Wireframing.html">Read More</a><!-- anchor to blog -->
+                </article>
+                <article class ="h-card" id = "Design4"><!-- article to contain details about blog/better to use figures, less information-->
+                    <h3>Design Board</h3>             <!-- title -->
+                    <p>Hopefully my scrapbooking skills came in clutch!?</p><!-- Summary -->
+                    <a href="DesignBoard.html">Read More</a><!-- anchor to blog -->
+                </article>
+            </div>
+        </div>
+        <a href="#Top" class="back-to-top">Back to Top</a> <!-- Back to top of screen-->
+        <footer>
+            <p>The night sky with me! I hope you...en...joy</p>
+        </footer>
     </body>
 </html>
