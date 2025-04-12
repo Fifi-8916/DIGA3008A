@@ -2,7 +2,6 @@
     color: #fff;
     font-family: "Sulphur Point", sans-serif;
     font-size: 16px;
-    border: 1px solid yellow;
     text-align: center;
     display: inline-block;
 }
@@ -24,23 +23,31 @@ figcaption{
     font-size: 28px;
 }
 .Caption-description{
-    color: #7454de;
+    color: #fff;
     font-weight: 400;
     font-family: "Sulphur Point", sans-serif;
     font-size: 16px;
 }
+
+#Options{
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 1px solid yellowgreen;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
 #Option1{
-    border: 1px solid #9fa8eb;
+    border: 1px solid #7E52A0;
     border-radius: 5px;
-    background-color: #9fa8eb;
+    background-color: #7E52A0;
     align-content: center;
     text-align: center;
     width: 158.51px;
     height: 240px;
     display: inline-block;
-    position: fixed;
-    left: 76.8px;
-    top: 139.6px;
+    position: relative;
 }
 
 #Option2{
@@ -52,9 +59,7 @@ figcaption{
     width: 158.51px;
     height: 240px;
     display: inline-block;
-    position: fixed;
-    left: 315.5px;
-    top: 76.8px;
+    position: relative;
 }
 
 #Option3{
@@ -66,9 +71,7 @@ figcaption{
     width: 158.51px;
     height: 240px;
     display: inline-block;
-    position: fixed;
-    left: 554px;
-    top: 139.6px;
+    position: relative;
 }
 
 #Option4{
@@ -80,9 +83,7 @@ figcaption{
     width: 158.51px;
     height: 240px;
     display: inline-block;
-    position: fixed;
-    left: 792.9px;
-    top:76.8px;
+    position: relative;
 }
 
 #Option5{
@@ -94,9 +95,7 @@ figcaption{
     width: 158.51px;
     height: 240px;
     display: inline-block;
-    position: fixed;
-    left: 1031.8px;
-    top: 139.6px;
+    position: relative;
 }
 img{
     width: 70px;
@@ -106,8 +105,23 @@ img{
 .back-to-top{
     position: sticky;
     scroll-behavior: smooth;
+    position: relative;
+    left: 90%;
+    bottom: 0%;
 }
 
+.down{
+    display: flex;
+}
+
+.fact-block{
+    padding: 5%;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
 
 
 

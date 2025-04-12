@@ -12,9 +12,6 @@
         <title>Blog Post</title>
     </head>
     <body>
-        <header>
-            <h1 id = "Top">Blog</h1>
-        </header>
         <nav> <!-- normal navigation -->
             <ul class="Menu">
                 <li><a href = "../index.html">Home</a></li>
@@ -24,16 +21,21 @@
                 <li><a href = "../Images/Gallery.html">Gallery</a> </li>
                 <li><a href = "../Contact/Contact.html">Contact</a></li>
             </ul>
-        </nav>
-        <p>Jump to</p>
-        <nav>   <!-- Blog menu select -->
-            <ul class="JumpMenu">
-                <li><a href="#Blog1">Blog 1</a></li>
-                <li><a href="#Blog2">Blog 2</a></li>
-                <li><a href="#Blog3">Blog 3</a></li>
-                <li><a href="#Blog4">Blog 4</a></li>
-            </ul>
-        </nav>
+        </nav> 
+        <div class="page-menu">
+            <header>
+                <h1 id = "Top">Blog</h1>
+            </header>
+            <p>Jump to</p>
+            <nav>   <!-- Blog menu select -->
+                <ul class="JumpMenu">
+                    <li><a href="#Blog1">Blog 1</a></li>
+                    <li><a href="#Blog2">Blog 2</a></li>
+                    <li><a href="#Blog3">Blog 3</a></li>
+                    <li><a href="#Blog4">Blog 4</a></li>
+                </ul>
+            </nav>
+        </div>
         <article class ="card" id = "Blog1"><!-- article to contain details about blog/better to use figures, less information-->
             <h3>Tech Colonialism today and my vision for the year to come.</h3>             <!-- title -->
            <h4>by <a class="p-author">Refilwe Modise</a> <time datetime="17-02-2025">Febraury 17</time> </h4><!-- Author date and time -->
@@ -61,8 +63,10 @@
             <p>Part 2 of...divs and spans, divs and spans</p><!-- Summary -->
             <a href="Blog4.html">Read More</a><!-- anchor to blog -->
         </article>
-        <h3>The night sky with me! I hope you...en...joy</h3>
         <a href="#Top">Back to Top</a> <!-- Back to top of screen-->
+        <footer>
+            <p>The night sky with me! I hope you...en...joy</p>
+        </footer>
     </body>
     
 </html>

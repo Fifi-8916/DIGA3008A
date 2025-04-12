@@ -25,14 +25,15 @@ h4{
 }
 
 a{
-    color: #7454de;
+    color: #FFF;
     font-size: 16px;
     font-family: "Sulphur Point", sans-serif;
     text-decoration: none;
+    border: 1px solid yellowgreen;
 }
 
 .p-author{
-    color: #edd1fa;
+    color: #FFF;
     font-size: 16px;
     font-family: "Sulphur Point", sans-serif;
     text-decoration: none;
@@ -41,6 +42,10 @@ a{
 body{
     background: linear-gradient(#012A36,#29274C,#7E52A0);
     background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 p{
@@ -56,9 +61,13 @@ p{
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
 }
 .Menu li{
-    display: inline;
+    display: inline-block;
 }
 .nav a{
     display: inline-block;
@@ -70,9 +79,16 @@ p{
 }
 
 footer{
-    text-align: center;
-    padding: 5px;
+    justify-content: center;
+    position: sticky;
     height: 80px;
-    display: block;
+    display: flex;
+    bottom: 0%;
+    left: 0%;
+}
+
+.page-menu{
+    border: 1px solid yellowgreen;
+    display: flex;
 }
 
