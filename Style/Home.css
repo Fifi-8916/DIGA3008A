@@ -43,7 +43,7 @@ figcaption{
 }
 #Option1{
     border: 1px solid #7E52A0;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background-color: #7E52A0;
     align-content: center;
     text-align: center;
@@ -55,7 +55,7 @@ figcaption{
 
 #Option2{
     border: 1px solid ,#7E52A0;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background-color: #7E52A0;
     align-content: center;
     text-align: center;
@@ -79,7 +79,7 @@ figcaption{
 
 #Option4{
     border: 1px solid ,#7E52A0;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background-color: #7E52A0;
     align-content: center;
     text-align: center;
@@ -91,7 +91,7 @@ figcaption{
 
 #Option5{
     border: 1px solid ,#7E52A0;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background-color: #7E52A0;
     align-content: center;
     text-align: center;
@@ -125,6 +125,17 @@ img{
 }
 
 
+@media (orientation: portrait)
+{
+    #Options{
+        position: relative;
+        width: 100vw;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        overflow: auto;
+    }
+}
 
 
 
