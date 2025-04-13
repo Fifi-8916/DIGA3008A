@@ -18,5 +18,11 @@
         width: 100vw;
         height: 100vh;
     }
-    
+    .h-card h4{
+        font-size: x-large;
+    }
+
+    .p-author{
+        font-size: x-large;
+    }
 }
