@@ -18,13 +18,14 @@ body{
     font-size: 3rem;
 }
 
-figcaption{
+figcaption a{
     color: #fff;
     font-family: "Sulphur Point", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
 }
+
 .Caption-description{
     color: #fff;
     font-weight: 400;
@@ -32,6 +33,14 @@ figcaption{
     font-size: 1rem;
 }
 
+figcaption img{
+    width: 4.375rem;
+    height: 4.375rem;
+    justify-content: center;
+}
+figcaption{
+    border: 1px solid yellowgreen;
+}
 #Options{
     position: relative;
     padding-top: 1%;
@@ -41,65 +50,20 @@ figcaption{
     justify-content:space-evenly;
     align-items: center;
 }
-#Option1{
+#Option1, #Option2, #Option3, #Option4, #Option5{
     border: 1px solid #7E52A0;
     border-radius: 0.3125rem;
     background-color: #7E52A0;
-    align-content: center;
+    align-content: baseline;
     text-align: center;
     width: 9.906rem;
     height: 15rem;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
 }
 
-#Option2{
-    border: 1px solid ,#7E52A0;
-    border-radius: 0.3125rem;
-    background-color: #7E52A0;
-    align-content: center;
-    text-align: center;
-    width: 9.906rem;
-    height: 15rem;
-    display: inline-block;
-    position: relative;
-}
-
-#Option3{
-    border: 1px solid ,#7E52A0;
-    border-radius: 0.3125rem;
-    background-color: #7E52A0;
-    align-content: center;
-    text-align: center;
-    width: 9.906rem;
-    height: 15rem;
-    display: inline-block;
-    position: relative;
-}
-
-#Option4{
-    border: 1px solid ,#7E52A0;
-    border-radius: 0.3125rem;
-    background-color: #7E52A0;
-    align-content: center;
-    text-align: center;
-    width: 9.906rem;
-    height: 15rem;
-    display: inline-block;
-    position: relative;
-}
-
-#Option5{
-    border: 1px solid ,#7E52A0;
-    border-radius: 0.3125rem;
-    background-color: #7E52A0;
-    align-content: center;
-    text-align: center;
-    width: 9.906rem;
-    height: 15rem;
-    display: inline-block;
-    position: relative;
-}
 img{
     width: 4.375rem;
     height: 4.375rem;
@@ -112,7 +76,7 @@ img{
     width:3.125rem;
     height: 3.125rem;
     position: relative;
-    left:45rem;
+    left:50vw;
 }
 .down img{
     width:2.5rem;
@@ -125,15 +89,34 @@ img{
 }
 
 
-@media (orientation: portrait)
-{
+
+@media screen and (orientation: portrait) {
+    html,body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
     #Options{
         position: relative;
-        width: 100vw;
         display: flex;
         justify-content:space-evenly;
         align-items: center;
         overflow: auto;
+    }
+
+    #Option1, #Option2,#Option3,#Option4,#Option5{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .caption-title{
+        width: 9.806rem;
+        height: 2.75rem;
+    }
+
+    .Caption-description{
+        width: 9.806rem;
+        height: 2.75rem;
     }
 }
 

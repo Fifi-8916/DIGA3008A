@@ -12,3 +12,11 @@
 .h-card h4{
     font-size: 2rem;
 }
+
+@media screen and (orientation: portrait) {
+    html,body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+}

@@ -102,11 +102,12 @@ a{
 
 footer{
     justify-content: center;
+    align-items: center;
     position: sticky;
     height: 5rem;
+    top: 100vh;
     display: flex;
-    bottom: 0%;
-    left: 0%;
+    border: 0.0625rem solid yellowgreen;
 }
 
 .page-menu{
@@ -152,9 +153,22 @@ footer{
     position: sticky;
     scroll-behavior: smooth;
     position: relative;
-    left: 90%;
-    bottom: 0%;
+    left: 90vw;
+    bottom: 0vh;
 }
 
+@media screen and (orientation: portrait) {
+    html,body{
+        width: 100vw;
+        height: 100vh;
+        background-size: contain;
+        background-position: center;
+    }
 
+    .back-to-top{
+        left: 75vw;
+        resize: horizontal;
+    }
+    
+}
 
