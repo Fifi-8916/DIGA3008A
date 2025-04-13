@@ -1,8 +1,5 @@
-h1{
-    text-align: center;
-}
 #Fact{
-    color: #fff;
+    color: #E6BCCD;
     font-family: "Sulphur Point", sans-serif;
     font-size: 1rem;
     text-align: center;
@@ -13,13 +10,15 @@ body{
 }
 
 #Top{
-    color: #fff;
+    color: #E6BCCD;
     font-family: "Sulphur Point", sans-serif;
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
 figcaption a{
-    color: #fff;
+    color: #E6BCCD;
     font-family: "Sulphur Point", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -27,7 +26,7 @@ figcaption a{
 }
 
 .Caption-description{
-    color: #fff;
+    color: #E6BCCD;
     font-weight: 400;
     font-family: "Sulphur Point", sans-serif;
     font-size: 1rem;
@@ -38,14 +37,11 @@ figcaption img{
     height: 4.375rem;
     justify-content: center;
 }
-figcaption{
-    border: 1px solid yellowgreen;
-}
+
 #Options{
     position: relative;
     padding-top: 1%;
     padding-bottom: 1%;
-    border: 1px solid yellowgreen;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -53,7 +49,7 @@ figcaption{
 #Option1, #Option2, #Option3, #Option4, #Option5{
     border: 1px solid #7E52A0;
     border-radius: 0.3125rem;
-    background-color: #7E52A0;
+    /*background-color: #7E52A0;*/
     align-content: baseline;
     text-align: center;
     width: 9.906rem;
@@ -75,8 +71,9 @@ img{
     align-items: center;
     width:3.125rem;
     height: 3.125rem;
+    align-content: center;
     position: relative;
-    left:50vw;
+    left: 48.5vw;
 }
 .down img{
     width:2.5rem;
@@ -117,6 +114,10 @@ img{
     .Caption-description{
         width: 9.806rem;
         height: 2.75rem;
+    }
+
+    .down{
+        left: 44.5vw;
     }
 }
 
