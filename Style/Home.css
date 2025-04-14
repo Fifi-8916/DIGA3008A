@@ -45,6 +45,7 @@ figcaption img{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    gap:4vw;
 }
 #Option1, #Option2, #Option3, #Option4, #Option5{
     border: 1px solid #7E52A0;
@@ -96,9 +97,10 @@ img{
     #Options{
         position: relative;
         display: flex;
-        justify-content:space-evenly;
+        justify-content:center;
         align-items: center;
         overflow: auto;
+        gap: 1vw;
     }
 
     #Option1, #Option2,#Option3,#Option4,#Option5{

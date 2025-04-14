@@ -5,6 +5,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&family=Princess+Sofia&family=Sulphur+Point:wght@300;400;700&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../Style/main.css"><!--make sure href has correct pathing--><!--main css for global attributes-->
+        <link rel="stylesheet" href="../Style/BlogHome.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, intial-scale=1.0">
         <meta name="author" content="Refilwe">
@@ -12,10 +13,7 @@
         <title>Portfolio</title>
     </head>
     <body>
-        <header>
-            <h1 id = "Top">Portfolio</h1>
-        </header>
-        <nav > <!-- normal navigation -->
+        <nav> <!-- normal navigation -->
             <ul class="Menu">
                 <li><a href = "../index.html">Home</a></li>
                 <li><a href = "../Blogs/BlogHome.html">Blog</a> </li>
@@ -25,35 +23,44 @@
                 <li><a href = "../Contact/Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <p>Jump to</p>
-        <nav>   <!-- Blog menu select -->
-            <ul class="JumpMenu">
-                <li><a href="#Project1">Project 1 </a></li>
-                <li><a href="#Project2">Project 2 </a></li>
-                <li><a href="#Project3">Project 3</a></li>
-            </ul>
-        </nav>
-        <article class ="card" id = "Project1"><!-- article to contain details about blog -->
-            <p>Example 1</p>             <!-- title -->
-            <p>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </p><!-- Author date and time -->
-            <p>The </p><!-- Summary -->
-            <a href="Project1.html">Read More</a><!-- anchor to blog -->
-        </article>
-
-        <article class ="card" id = "Project2"><!-- article to contain details about blog -->
-            <p>Example 2</p>             <!-- title -->
-            <p>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </p><!-- Author date and time -->
-            <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
-            <a href="Project2.html">Read More</a><!-- anchor to blog -->
-        </article>
-
-        <article class ="card" id = "Project3"><!-- article to contain details about blog -->
-            <p>Example 3</p>             <!-- title -->
-            <p>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </p><!-- Author date and time -->
-            <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
-            <a href="Project3.html">Read More</a><!-- anchor to blog -->
-        </article>
-        <a href="#Top">Back to Top</a> <!-- Back to top of screen-->
+        <div class="layout">
+            <div class="page-menu">
+                <header>
+                    <h3 id = "Top">Portfolio</h3>
+                </header>
+                <p>Jump to</p>
+                <nav>   <!-- Blog menu select -->
+                    <ul class="JumpMenu">
+                        <li><a href="#Project1">Project 1 </a></li>
+                        <li><a href="#Project2">Project 2 </a></li>
+                        <li><a href="#Project3">Project 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id = "start" class="page-articles">
+                <article class ="h-card" id = "Project1"><!-- article to contain details about blog -->
+                    <h4>Example 1</h4>             <!-- title -->
+                    <h4>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </h4><!-- Author date and time -->
+                    <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
+                    <a href="Project1.html">Read More</a><!-- anchor to blog -->
+                </article>
+    
+                <article class ="h-card" id = "Project2"><!-- article to contain details about blog -->
+                    <h4>Example 2</h4>             <!-- title -->
+                    <h4>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </h4><!-- Author date and time -->
+                    <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
+                    <a href="Project2.html">Read More</a><!-- anchor to blog -->
+                </article>
+    
+                <article class ="h-card" id = "Project3"><!-- article to contain details about blog -->
+                    <h4>Example 3</h4>             <!-- title -->
+                    <h4>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </h4><!-- Author date and time -->
+                    <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
+                    <a href="Project3.html">Read More</a><!-- anchor to blog -->
+                </article>
+            </div>
+        </div>
+        <a href="#Top" class="back-to-top">Back to Top</a> <!-- Back to top of screen-->
         <footer>
             <p>The night sky with me! I hope you...en...joy</p>
         </footer>
