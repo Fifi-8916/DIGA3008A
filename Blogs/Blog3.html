@@ -13,8 +13,8 @@
         <title>Blog - 03/03/2025</title>
     </head>
     <body>
-        <nav class="Menu">
-            <ul>
+        <nav>
+            <ul class="Menu">
                 <li><a href = "../index.html">Home</a></li>
                 <li><a href = "BlogHome.html">Blog</a> </li>
                 <li><a href = "../Projects/Project.html">Portfolio</a></li>
@@ -23,38 +23,40 @@
                 <li><a href = "../Contact/Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <a href="BlogHome.html">Back to Blog Select</a><!--Back to blog select--> 
-        <article class = "h-entry">
-            <h1 id="Title">Progress...Report...I don't know...</h1><!--Title-->
-            <h3>by <a class="p-author">Refilwe Modise</a> <time datetime="03-03-2025">March 3</time></h3><!-- Author date and time -->
-            <Section>
-                <p>
-                    I’ve been able to make a lot of progress in terms of core programming, 
-                    I now have 3 pages, home, blog and gallery. I have also created a navigation 
-                    bar on the home page and now I’m able to move to the other two pages, 
-                    not back yet, but since the initial navigation bar is working fine, 
-                    I’m more confident that other will work well. This week I’m planning 
-                    to finish the navigation bar for all pages, add extra pages containing 
-                    personal information and project showcases and add all the missing information 
-                    that I’m going to be written. So, this week I’m hoping to complete the barebones of the website.
-                </p>
-            </Section>
-
-            <section>
-                <p>
-                    In terms of design, I’m thinking of making use of the hover feature to reveal 
-                    information about myself on the home page and display details about the pages 
-                    before the user can click on the page. I’ve made 3rd major iteration, but I 
-                    think this will be my final major change. I wanted to create a more whimsy 
-                    element to my website, hence the use of the hover feature. I’m hoping that 
-                    it will create a create and artistic idea of what I have in mind, but I’ll 
-                    have to first get through the basic stuff before I get to this.
-                </p>
-            </section>
-        </article>
+        <div class="layout-blog">
+            <a href="BlogHome.html" class="back-to-home">Back to Blog Select</a><!--Back to blog select--> 
+            <article class = "h-entry">
+                <h1 id="Title">Progress...Report...I don't know...</h1><!--Title-->
+                <h3>by <a class="p-author">Refilwe Modise</a> <time datetime="03-03-2025">March 3</time></h3><!-- Author date and time -->
+                <Section>
+                    <p>
+                        I’ve been able to make a lot of progress in terms of core programming, 
+                        I now have 3 pages, home, blog and gallery. I have also created a navigation 
+                        bar on the home page and now I’m able to move to the other two pages, 
+                        not back yet, but since the initial navigation bar is working fine, 
+                        I’m more confident that other will work well. This week I’m planning 
+                        to finish the navigation bar for all pages, add extra pages containing 
+                        personal information and project showcases and add all the missing information 
+                        that I’m going to be written. So, this week I’m hoping to complete the barebones of the website.
+                    </p>
+                </Section>
+    
+                <section>
+                    <p>
+                        In terms of design, I’m thinking of making use of the hover feature to reveal 
+                        information about myself on the home page and display details about the pages 
+                        before the user can click on the page. I’ve made 3rd major iteration, but I 
+                        think this will be my final major change. I wanted to create a more whimsy 
+                        element to my website, hence the use of the hover feature. I’m hoping that 
+                        it will create a create and artistic idea of what I have in mind, but I’ll 
+                        have to first get through the basic stuff before I get to this.
+                    </p>
+                </section>
+            </article>
+            <a href="#Title" class="back-to-top">Back to Top</a> <!-- Back to top of screen-->
+        </div>
         <a href="../Blogs/Blog4.html" class="next">Next</a><!--Next blog, no previous since first-->
         <a href="../Blogs/Blog2.html" class="previous">Previous</a><!--Previous, no next since last-->
-        <a href="#Title" class="back-to-top">Back to Top</a> <!-- Back to top of screen-->
         <footer>
             <p>The night sky with me! I hope you...en...joy</p>
         </footer>

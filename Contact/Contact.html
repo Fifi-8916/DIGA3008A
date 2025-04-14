@@ -6,6 +6,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&family=Princess+Sofia&family=Sulphur+Point:wght@300;400;700&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../Style/main.css"><!--make sure href has correct pathing--><!--main css for global attributes-->
+        <link rel="stylesheet" href="../Style/Contact.css">
         <meta charset="UTF-8">
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, intial-scale=1.0">
@@ -24,26 +25,34 @@
                 <li><a href = "Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <header>
-            <h1 id = "Top">Contact</h1>
-        </header>
-        <img src="../Images/Graduation2020.jpg" alt="Missing Graduation photo" width="560" height="320"/>
-        <aside>
-            <p>
-                I am a current Honors Digital Arts student that is currently trying to keep my cool and keep it together.
-            </p>
-            <p>Follow or Contact me for more information.</p>
-            <a href="mailto:1986119@students.wits.ac.za"><img src="../Images/Icons/Email.png" alt="Email" width="40" height="40"/></a>
-            <a href="https://www.instagram.com/fifi_flow/"><img src="../Images/Icons/Instagram.png" alt="Instagram Icon" width="40" height="40"></a>
-            <!--add twitter and github pages-->
-        </aside>
-        <!--Link answer when clicked to new page/Do that in Javascript-->
-        <div>
-            <label>The answer is LOVE by the way</label>
-            <input type="text" id="caption" name="quote"/>
-            <p>Link to the <a href="../Secret Page/Surprise.html">Secret Page</a> for now, until I understand Javascript interaction</p>
+        <div class="layout-contact">
+            <header>
+                <h1 id = "Top">Contact</h1>
+            </header>
+            <div class="full-profile">
+                <img src="../Images/Graduation2020.jpg" alt="Missing Graduation photo" class="profile"/>
+                <div class="side-information">
+                    <p>
+                        I am a current Honors Digital Arts student that is currently trying to keep my cool and keep it together.
+                    </p>
+                    <p>Follow or Contact me for more information.</p>
+                    <div class="social">
+                        <a href="mailto:1986119@students.wits.ac.za"><img src="../Images/Icons/Email.png" alt="Email" width="40" height="40"/></a>
+                        <a href="https://www.instagram.com/fifi_flow/"><img src="../Images/Icons/Instagram.png" alt="Instagram Icon" width="40" height="40"></a>
+                    </div>
+                    
+                    <!--add twitter and github pages-->
+                </div>
+            </div>
+            
+            <!--Link answer when clicked to new page/Do that in Javascript-->
+            <div class="text-box">
+                <label>The answer is LOVE by the way</label>
+                <p>Link to the <a href="../Secret Page/Surprise.html">Secret Page</a> for now, until I understand Javascript interaction</p>
+                <input type="text" id="caption" name="quote"/>
+                <input type="submit" value="Submit"/>
+            </div>
         </div>
-        <input type="submit" value="Submit"/>
         <a href="#Top" class="back-to-top">Back to Top</a> <!-- Back to top of screen-->
         <footer>
             <p>The night sky with me! I hope you...en...joy</p>

@@ -12,8 +12,8 @@
         <title>Wireframing</title>
     </head>
     <body>
-        <nav class="Menu">
-            <ul>
+        <nav>
+            <ul class="Menu">
                 <li><a href = "../index.html">Home</a></li>
                 <li><a href = "../Blogs/BlogHome.html">Blog</a> </li>
                 <li><a href = "../Projects/Project.html">Portfolio</a></li>
@@ -22,32 +22,38 @@
                 <li><a href = "../Contact/Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <a href="DevLogHome.html">Back to Dev Log Select</a><!--Back to blog select--> 
-        <article class = "h-entry">
-            <h1 id="Title">Wireframing</h1><!--Title-->
-            <h3>by <a class="p-author">Refilwe Modise</a></h3><!-- Author  -->
-            <h3>1st Iterations (Home Page)</h3>
-            <figure id="Caption">
-                <img src="../Dev Log/Images/Wireframe/First_Iteration.png" alt="Test page Idea" width="560" height="335,7366"/>
-                <figcaption>Intial Page to actually just work and play around with</figcaption>
-            </figure>
-            <figure id="Caption">
-                <img src="../Dev Log/Images/Wireframe/Second_Iteration.png" alt="Home Page Idea 1" width="560" height="297,5"/>
-                <figcaption>First Home Page idea</figcaption>
-            </figure>
-            <h3>2nd Iteration</h3>
-            <figure id="Caption">
-                <img src="../Dev Log/Images/Wireframe/Third_Iteration.png" alt="Home Page Idea 2 (First Half)" width="560" height="364,8551"/>
-                <figcaption>2nd Iteration of Home Page</figcaption>
-            </figure>
-            <figure id="Caption">
-                <img src="../Dev Log/Images/Wireframe/Third_Iteration_Second_Page.png" alt="Home Page Idea 3(Second Half)" width="560" height="276,264"/>
-                <figcaption>2nd Page of Home Page when you click the down arrow</figcaption>
-            </figure>
-        </article>
-        <a href="../Dev Log/Inspiration.html">Previous</a><!--Previous-->
-        <a href="../Dev Log/DesignBoard.html">Next</a><!--Next-->
-        <a href="#Title">Back to Top</a> <!-- Back to top of screen-->
+        <div class="layout-blog">
+            <a href="DevLogHome.html" class="back-to-home">Back to Dev Log Select</a><!--Back to blog select--> 
+            <article class = "h-entry">
+                <h4 id="Title">Wireframing</h4><!--Title-->
+                <h4>by <a class="p-author">Refilwe Modise</a></h4><!-- Author  -->
+                <div class="layout-iteration1">
+                    <h5>1st Iterations (Home Page)</h5>
+                    <figure class="iteration">
+                        <img src="../Dev Log/Images/Wireframe/First_Iteration.png" alt="Test page Idea" width="560" height="335,7366"/>
+                        <figcaption>Intial Page to actually just work and play around with</figcaption>
+                    </figure>
+                    <figure class="iteration">
+                        <img src="../Dev Log/Images/Wireframe/Second_Iteration.png" alt="Home Page Idea 1" width="560" height="297,5"/>
+                        <figcaption>First Home Page idea</figcaption>
+                    </figure>
+                </div>
+                <div class="layout-iteration2">
+                    <h5>2nd Iteration</h5>
+                    <figure class="iteration">
+                        <img src="../Dev Log/Images/Wireframe/Third_Iteration.png" alt="Home Page Idea 2 (First Half)" width="560" height="364,8551"/>
+                        <figcaption>2nd Iteration of Home Page</figcaption>
+                    </figure>
+                    <figure class="iteration">
+                        <img src="../Dev Log/Images/Wireframe/Third_Iteration_Second_Page.png" alt="Home Page Idea 3(Second Half)" width="560" height="276,264"/>
+                        <figcaption>2nd Page of Home Page when you click the down arrow</figcaption>
+                    </figure>
+                </div>
+            </article>
+            <a href="#Title" class="back-to-top">Back to Top</a> <!-- Back to top of screen-->
+        </div>
+        <a href="../Dev Log/Inspiration.html" class="previous">Previous</a><!--Previous-->
+        <a href="../Dev Log/DesignBoard.html" class="next">Next</a><!--Next-->
         <footer>
             <p>The night sky with me! I hope you...en...joy</p>
         </footer>

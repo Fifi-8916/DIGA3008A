@@ -1,0 +1,58 @@
+#Top{
+    position: relative;
+    top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+}
+
+.layout-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    position: relative;
+    width: 25%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.full-profile{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    left: 25vw;
+    gap: 2vw;
+    padding: 0.5vw 0 2vw 0;
+}
+.side-information{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border: 0.0625rem solid #D295BF;
+    border-radius: 1em;
+    padding: 1vw;
+}
+.back-to-top{
+    position: relative;
+}
+@media screen  and (orientation: portrait){
+    html,body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .full-profile{
+        flex-direction: column;
+    }
+    .profile{
+        width: 50vw;
+    }
+    .side-information{
+        width: 50vw;
+    }
+    .back-to-top{
+        left: 75vw;
+    }
+}

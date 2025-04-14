@@ -5,14 +5,16 @@
 body{
     background: linear-gradient(#7E52A0,#D295BF,#E6BCCD);
     background-attachment: fixed;
-    color: #edd1fa;
+    color: #012A36;
 }
 h1{
     text-align: center;
+    color: #012A36;
 }
 p{
     text-align: center;
-    padding: 5px;
+    padding: 0.3125rem;
+    color: #012A36;
 }
 
 .video{
@@ -25,10 +27,9 @@ p{
     padding: 10px;
 }
 .homeButton a{
-    border: 1px solid #4120a9;
     border-radius: 5px;
     padding: 5px;
-    background-color: #4120a9;
+    background-color: #012A36;
     text-align: center;
 }
 a{
