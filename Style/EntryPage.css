@@ -1,0 +1,5 @@
+.turn-page{
+    border: 1px solid yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
