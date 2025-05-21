@@ -113,17 +113,17 @@ footer{
 
 .page-menu{
     border: 0.0625rem solid #D295BF;
-    /*background-color: #7E52A0;*/
     display: flex;
+    height: 65vh;
     flex-direction: column;
     border-radius: 1em;
     align-items: center;
     position:relative;
     padding-top: 3vh;
-    padding-bottom: 30vh;
     padding-left: 3vw;
     padding-right: 8vw;
     margin: 3rem;
+    overflow: auto;
 }
 
 .page-menu h1{
@@ -144,7 +144,6 @@ footer{
     overflow: auto;
     display: flex;
     justify-content: flex-start;
-    align-items:flex-start;
     flex-direction: column;
 
 }
