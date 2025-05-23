@@ -1,67 +1,28 @@
-console.log("hello world");
-window.alert("welcome to my dream world!");
-function area(length, width){
-    Area = length*width;
-    return Area;
-}
-console.log(area(5,3));
-
-function exercise2(num1,num2){
-    sum = num1+num2;
-    if(num1===num2)
-    {
-        return sum*3;
-    }
-    else{
-        return sum;
-    }
+function toggleNav() {//when pressing the three line in mobile, open a side bar of that information
+  const x = document.getElementsByClassName("Menu");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
 }
 
-console.log(exercise2(2,2));
-console.log(exercise2(1,2));
+function matchPassword(){//if puzzle is complete and password is found, open link to secret page
 
-function exercise3(num1,num2){
-    sum = num1+num2;
-    console.log(num1);
-    console.log(num2);
-    console.log(sum);
-    if(sum===50)
-    {
-        return true;
-    }else if (num1===50 || num2===50){
-        return true;
-    }
-    else return false;
 }
 
-console.log(exercise3(Math.floor((Math.random()*51)) ,Math.floor((Math.random()*51))))
+function changeFooter(){//else message at the bottom of screen says oncorrect and update footer line to that page.
 
-function exercise4(voltage,current)
-{
-    return voltage*current;
-}
-console.log("Power = "+exercise4(6,3));
-
-function exercise5(){
-    isless = true;
-    randnum = Math.floor(Math.random()*11);
-    console.log(randnum);
-    if(randnum<5)
-    {
-        isless = true;
-
-    }
-    else if(randnum>5)
-    {
-        isless = false;
-    }
-    if(isless===true)
-    {
-        return "The number is less than 5"
-    }
-    else if(isless===false){
-        return "The number is greater than 5"
-    }
 }
 
-console.log(exercise5())
+function openModal(imageSrc) {
+    let modal = document.getElementById("myModal");
+    let modalImg = document.getElementById("modalImage");
+    modal.style.display = "block";
+    modalImg.src = imageSrc;
+}
+
+function closeModal() {
+    let modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}

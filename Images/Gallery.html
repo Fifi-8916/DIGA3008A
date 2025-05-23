@@ -5,15 +5,18 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&family=Princess+Sofia&family=Sulphur+Point:wght@300;400;700&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../Style/main.css"><!--make sure href has correct pathing--><!--main css for global attributes-->
+        <script src="../Scripts/main.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, intial-scale=1.0">
         <title>Gallery</title>
     </head>
-    <body>
-        <header>
-            <h1 id="Top">Gallery</h1>
-        </header>
-        <nav>
+    <body>  
+        <nav class="nav-menu">
+            <a href="#" class="menu-hamburger" onclick="toggleNav()">
+                <span class="menu-hameburger-line"></span>
+                <span class="menu-hameburger-line"></span>
+                <span class="menu-hameburger-line"></span>
+            </a>
             <ul class="Menu">
                 <li><a href = "../index.html">Home</a></li>
                 <li><a href = "../Blogs/BlogHome.html">Blog</a> </li>
@@ -23,17 +26,30 @@
                 <li><a href = "../Contact/Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <dialog id="Detail1"><!--Javascript for interaction-->
-            <figure>
-               <button autofocus>Close</button>
-                <img src="DndSpecies.jpg" alt="Elf Species in DND" width="120" height="266,66">
-                <figcaption>Albedo from Genshin Impact</figcaption> 
-            </figure>
-        </dialog>
-        <button><!--Show dialogue on click-->
-            <img src="DndSpecies.jpg" alt="Elf Species in DND" width="120" height="266,66">
-        </button>
+        <div class="layout-gallery">
+            <header>
+                <h1 id="Top">Gallery</h1>
+            </header>
+            <div class="gallery-images">
+                <div class="image-item">
+                    <img src="Albedo.jpg" alt="Albedo splash art" onclick="openModal('Albedo.jpg')">
+                </div>
+                <div class="image-item">
+                    <img src="Charcuterie.jpg" alt="Home made Charcuterie">
+                </div>
+                <div class="image-item">
+                    <img src="Graduation2020.jpg" alt="Graduation in US 2020">
+                </div>
+                <div class="image-item">
+                    <img src="SelfMadeCake.jpg" alt="Scuffed Cake" >
+                </div>
+                <div class="image-item">
+                    <img src="TshepiWithDogs.jpg" alt="Tshepi(My older brother), holding 2 Dogs!">
+                </div>
+            </div> 
         <a href="#Top">Back to Top</a> <!-- Back to top of screen-->
+        </div>
+        
         <footer>
             <p>The night sky with me! I hope you...en...joy</p>
         </footer>
