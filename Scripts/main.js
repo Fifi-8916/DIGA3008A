@@ -14,15 +14,15 @@ function matchPassword(){//if puzzle is complete and password is found, open lin
 function changeFooter(){//else message at the bottom of screen says oncorrect and update footer line to that page.
 
 }
-
-function openModal(imageSrc) {
-    let modal = document.getElementById("myModal");
-    let modalImg = document.getElementById("modalImage");
-    modal.style.display = "block";
-    modalImg.src = imageSrc;
+       
+function openModal(imageSrc) {//press an image then modal screen will display selected image
+  let modal = document.getElementById("modal");
+  let modalImg = document.getElementById("image");
+  modal.style.display = "block";
+  modalImg.src = imageSrc;
 }
 
-function closeModal() {
-    let modal = document.getElementById("myModal");
-    modal.style.display = "none";
+function closeModal() {//x button to close modal window
+  let modal = document.getElementById("modal");
+  modal.style.display = "none";
 }
