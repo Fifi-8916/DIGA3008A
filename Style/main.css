@@ -108,7 +108,6 @@ footer{
     height: 65vh;
     flex-direction: column;
     border-radius: 1em;
-    align-items: center;
     position:relative;
     padding-top: 3vh;
     padding-left: 3vw;
@@ -149,9 +148,10 @@ footer{
 
 .page-articles{
     position: relative;
-    top: 2.5rem;
+    top: 6vh;
     left: 6vw;
     height: 65vh;
+    width: 41vw;
     overflow: auto;
     display: flex;
     justify-content: flex-start;
@@ -191,6 +191,17 @@ footer{
 .read-more-button:hover{
     border-bottom:1px solid #D295BF
 }
+
+.jump-menu-hover:hover{
+    border-bottom:1px solid #D295BF
+}
+
+.nav-menu-nover:hover{
+    border-bottom:1px solid #D295BF
+}
+
+
+
 
 @media screen and (max-width: 600px){
 

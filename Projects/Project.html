@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&family=Princess+Sofia&family=Sulphur+Point:wght@300;400;700&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../Style/main.css"><!--make sure href has correct pathing--><!--main css for global attributes-->
         <link rel="stylesheet" href="../Style/BlogHome.css">
+        <link rel="stylesheet" href="../Style/PorfolioHome.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, intial-scale=1.0">
         <meta name="author" content="Refilwe">
@@ -20,12 +21,12 @@
                 <span class="menu-hameburger-line"></span>
             </a>
             <ul class="Menu">
-                <li><a href = "../index.html">Home</a></li>
-                <li><a href = "../Blogs/BlogHome.html">Blog</a> </li>
-                <li><a href = "Project.html">Portfolio</a></li>
-                <li><a href = "../Dev Log/DevLogHome.html">Dev Log</a></li>
-                <li><a href = "../Images/Gallery.html">Gallery</a> </li>
-                <li><a href = "../Contact/Contact.html">Contact</a></li>
+                <li><a class="nav-menu-hover" href = "../index.html">Home</a></li>
+                <li><a class="nav-menu-hover" href = "../Blogs/BlogHome.html">Blog</a> </li>
+                <li><a class="nav-menu-hover" href = "Project.html">Portfolio</a></li>
+                <li><a class="nav-menu-hover" href = "../Dev Log/DevLogHome.html">Dev Log</a></li>
+                <li><a class="nav-menu-hover" href = "../Images/Gallery.html">Gallery</a> </li>
+                <li><a class="nav-menu-hover" href = "../Contact/Contact.html">Contact</a></li>
             </ul>
         </nav>
         <div class="layout">
@@ -36,32 +37,44 @@
                 <p>Jump to</p>
                 <nav>   <!-- Blog menu select -->
                     <ul class="JumpMenu">
-                        <li><a href="#Project1">Project 1 </a></li>
-                        <li><a href="#Project2">Project 2 </a></li>
-                        <li><a href="#Project3">Project 3</a></li>
+                        <li><a href="#Project1" class="jump-menu-hover">Project 1 </a></li>
+                        <li><a href="#Project2" class="jump-menu-hover">Project 2 </a></li>
+                        <li><a href="#Project3" class="jump-menu-hover">Project 3</a></li>
+                        <li><a href="#Project4" class="jump-menu-hover">Project 4</a></li>
                     </ul>
                 </nav>
             </div>
             <div id = "start" class="page-articles">
                 <article class ="h-card" id = "Project1"><!-- article to contain details about blog -->
-                    <h4>Example 1</h4>             <!-- title -->
-                    <h4>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </h4><!-- Author date and time -->
-                    <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
+                    <h4>Project 1 - Rhythm game Prototype</h4>             <!-- title -->
+                    <h5 class="p-author">Refilwe Modise</h5> 
+                    <time datetime=" 03-13-2025"><h5>March 13</h5></time> <!-- Author date and time -->
+                    <p>My first Prototype...I'm so nervous</p><!-- Summary -->
                     <a href="Project1.html" class="read-more-button">Read More</a><!-- anchor to blog -->
                 </article>
     
                 <article class ="h-card" id = "Project2"><!-- article to contain details about blog -->
-                    <h4>Example 2</h4>             <!-- title -->
-                    <h4>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </h4><!-- Author date and time -->
-                    <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
+                    <h4>Project 2 - Turn-based RPG</h4>             <!-- title -->
+                    <h5 class="p-author">Refilwe Modise</h5> 
+                    <time datetime=" 04-09-2025"><h5>April 9</h5></time> <!-- Author date and time -->
+                    <p>I was analysing way too many Final Fantasy games</p><!-- Summary -->
                     <a href="Project2.html" class="read-more-button">Read More</a><!-- anchor to blog -->
                 </article>
     
                 <article class ="h-card" id = "Project3"><!-- article to contain details about blog -->
-                    <h4>Example 3</h4>             <!-- title -->
-                    <h4>by <a class="p-author">Refilwe Modise</a> <time datetime=" 17/02/2025">Febraury 17</time> </h4><!-- Author date and time -->
-                    <p>I'm doing this just to test what would actually happen. Pray it works!</p><!-- Summary -->
+                    <h4>Project 3 - Microlevel Design</h4>             <!-- title -->
+                    <h5 class="p-author">Refilwe Modise</h5> 
+                    <time datetime=" 04-23-2025"><h5>April 24</h5></time> <!-- Author date and time -->
+                    <p>Made 1 component for a level</p><!-- Summary -->
                     <a href="Project3.html" class="read-more-button">Read More</a><!-- anchor to blog -->
+                </article>
+
+                <article class ="h-card" id = "Project4"><!-- article to contain details about blog -->
+                    <h4>Project 4 - Macrolevel Design</h4>             <!-- title -->
+                    <h5 class="p-author">Refilwe Modise</h5> 
+                    <time datetime=" 05-08-2025"><h5>May 8</h5></time> <!-- Author date and time -->
+                    <p>Project 3 but...BIGGER..an actual level!</p><!-- Summary -->
+                    <a href="Project4.html" class="read-more-button">Read More</a><!-- anchor to blog -->
                 </article>
             </div>
         </div>
