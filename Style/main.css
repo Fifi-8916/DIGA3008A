@@ -2,10 +2,7 @@ body{
     background: linear-gradient(#012A36,#29274C,#7E52A0);
     background-size: auto;
     background-repeat: no-repeat;
-   /* 
-   background-attachment: scroll;
-   position: relative;*/
-    height: 100vh;
+    height: auto;/*I DID IT!!!!!*/
     width: 100vw;
 }
 *{
