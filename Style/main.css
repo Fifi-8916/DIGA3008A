@@ -226,15 +226,18 @@ footer{
 
 .fact-block{
     display:grid;
-    border: #D295BF 1px solid;
     gap: 10%;
 }
 
 #Top-page,#Fact1,#Fact2,#Fact3,#Fact4,#Fact5,#Fact6,#Fact7,#Fact8{
-border: #E6BCCD 1px solid;
 justify-content: center;
 align-content: center;
+}
 
+#Fact1,#Fact2,#Fact3,#Fact4,#Fact5,#Fact6,#Fact7,#Fact8{
+background-image: url(../Images/Icons/HomeIcons/blue-cloud-fact.png);
+background-size: cover;
+background-position: center;
 }
 #Top-page{
     grid-area: 2/2;
@@ -254,6 +257,31 @@ align-content: center;
     grid-area: 3/3;
 }
 
+.layout-center{
+    display: flex;
+    position: relative;
+    top: 5vh;
+}
+.layout-blog{
+    display: flex;
+    position: relative;
+    width:50vw;
+    height: 80vh;
+    overflow: scroll;
+    flex-direction: row;
+    left: 25vw;
+
+}
+.next{
+    position: relative;
+    left: 40vw;
+    top: 30vh;
+}
+.previous{
+    position: relative;
+    left: 3vw;
+    top: 30vh;
+}
 @media screen and (max-width: 600px){
 
     .back-to-top{
