@@ -1,6 +1,6 @@
 function stars(){
   let count = 500;
-  let scene = document.querySelector(".scene");
+  let scene = document.querySelector(".sky");
   let i = 0;
   while(i<count){
     let star = document.createElement("i");
@@ -30,10 +30,19 @@ function toggleNav() {//when pressing the three line in mobile, open a side bar 
 }
 
 function matchPassword(){//if puzzle is complete and password is found, open link to secret page
-
+  let text = document.getElementById("caption");
+  let answer = text.value;
+  if(answer ==="love"){
+    open.window("../Secret Page/Surprise.html", "_blank");
+  }
+  else{
+    changeFooter(answer);
+  }
+  
 }
 
-function changeFooter(){//else message at the bottom of screen says oncorrect and update footer line to that page.
+function changeFooter(newFooter){//else message at the bottom of screen says oncorrect and update footer line to that page.
+
 
 }
        

@@ -6,12 +6,18 @@ body{
     height: auto;/*I DID IT!!!!!*/
     width: 100vw;
 }
-.scene{
+.sky{
     position: relative;
     width: 100vw;
     height: 100vh;
     
 
+}
+
+.sky i{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
 }
 *{
     margin: 0;

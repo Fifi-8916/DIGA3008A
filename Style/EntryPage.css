@@ -3,10 +3,3 @@
     display: flex;
     flex-direction: column;
 }
-.layout-center{
-    display: flex;
-    border: 1px solid salmon;
-}
-.entry{
-    border: 1px solid yellowgreen;
-}
