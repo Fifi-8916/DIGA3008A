@@ -1,3 +1,25 @@
+function stars(){
+  let count = 500;
+  let scene = document.querySelector('.scene');
+  let i = 0;
+  while(i<count){
+    let star = document.createElement("i");
+    let x = Math.floor(Math.random()*window.innerWidth);
+    let y = Math.floor(Math.random()*window.innerHeight);
+    let duration = Math.random()*10;
+    let size  = Math.random()*2;
+
+    star.style.left=x+'px';
+    star.style.top=y+'py';
+    star.style.width=1+size+'px';
+    star.style.height=1+size+'py';
+
+    scene.appendChild(star);
+    i++;
+  }
+}
+stars();
+
 function toggleNav() {//when pressing the three line in mobile, open a side bar of that information
   const x = document.getElementsByClassName("Menu");
   if (x.style.display === "flex") {
@@ -27,25 +49,3 @@ function closeModal() {//x button to close modal window
   modal.style.display = "none";
 }
 
-function star(){
-  let count = 500;
-  let scene = document.querySelector('.scene');
-  let i = 0;
-  while(i<count){
-    let star = document.createElement("i");
-    let x = Math.floor(Math.random()*window.innerWidth);
-    let y = Math.floor(Math.random()*window.innerHeight);
-    let duration = Math.random()*10;
-    let size  = Math.random()*2;
-
-    star.style.left=x+'px';
-    star.style.top=y+'py';
-    star.style.width=1+size+'px';
-    star.style.height=1+size+'py';
-
-    scene.appendChild(star);
-    i++;
-  }
-}
-
-star();
