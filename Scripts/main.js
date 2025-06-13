@@ -1,6 +1,6 @@
 function stars(){
   let count = 500;
-  let scene = document.querySelector('.scene');
+  let scene = document.querySelector(".scene");
   let i = 0;
   while(i<count){
     let star = document.createElement("i");
